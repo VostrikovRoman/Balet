@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+		<meta charset="UTF-8">
+		<link></link>
+		<title>Чёрный Лебедь</title>
+		<link rel="icon" type"image/png" href="homepage/images/logo.png"> 
+  <link href="homepage/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="homepage/java.js"></script>
+  
+</head>
+<body class="phon" vlink="white " link="white" >
+		<div class="container">
+		<div class="men">
+				<img class="logo" src="homepage/images/logo.png"></img>
+				<img class="logo1"src="homepage/images/date.png" ></img>
+				<img id="menu_button" class="menu_button " src="homepage/images/menu.png" width="20%"></img>
+		</div>
+		<div class="head">Балетная опера</div>
+		<div class="font">Чёрный лебедь</div>
+		<div class="f1">При участии</div>
+		<div class="f2">Linu ge' Lini</div>
+		<div class="f3">Феерическое шоу со звездой мирового уровня в самом крупном балетном зале Москвы</div>
+		<div class="ticket">купить билет</div>
+		<div class="f4">ул. Большая Дмитровка, 4/2</div>
+		<div class="theatr">
+				<img src="homepage/images/theatr.png"></img>
+		</div>
+		</div>
+		<div class="dropdown" id="dropdown"> 
+				<img id="cross" class="krest" src="homepage/images/krest.png" >
+				<script>
+					const button = document.getElementById("menu_button");
+					const buttonclose = document.getElementById("cross")
+					const menu = document.getElementById("dropdown");
+
+					function clickonbutton() {
+						menu.style.right='-100px';
+						menu.style.width='330px';
+					}
+					function closemenu() {
+						menu.style.right='230px';
+						menu.style.width='0px';
+					}
+					
+					button.addEventListener('click', clickonbutton);
+					buttonclose.addEventListener('click', closemenu);
+				</script>
+
+
+
+
+
+				<ul class="menu">
+						<li class="l1"><a href="index.html">Регистрация</a></li>
+						<li class="l2"><a href="index.html">Вход</a></li>
+						<li class="l3"><a href="index.html">Видео</a></li>
+						<li class="l4"><a href="index.html">Событие</a></li>
+						<li class="l5"><a href="index.html">О нас</a></li>
+				</ul>
+				<div class="text">
+						I am ready for a long road flight for working with a week - or month-long projects.
+				</div>
+				<div class="mess">
+						<a href="index.html"><img src="homepage/images/facebook.png" class="f"></a>
+						<a href="index.html"><img src="homepage/images/twitter.png" class="t"></a>
+						<a href="index.html"><img src="homepage/images/instagram.png" class="i"></a>
+				</div>
+		</div>
+</body>
+</html>
